@@ -45,7 +45,7 @@ export default function Lastpart() {
           <div>
             <p className='text-center text-3xl md:text-4xl my-16 text-[#F45050] font-bold'>Why Should You Attend?</p>
           </div>
-          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-5'>
             <div className='border border-[#3C486B] p-6 rounded-lg flex flex-col items-center'>
               <h3 className='text-xl font-semibold mb-4 text-[#F45050]'>New Learnings</h3>
               <p className='text-base text-[#3C486B] text-left'>Academic sessions, panel discussions, paper presentations, interactive workshops, and Q&A sessions.</p>
@@ -115,7 +115,7 @@ export default function Lastpart() {
 <section>
   <div className='max-w-[85rem] w-full mx-auto px-4'>
     <div>
-      <p className='text-center text-3xl md:text-4xl my-8 text-[#F45050] font-bold'>Our Associates</p>
+      <p className='text-center text-3xl md:text-4xl my-2 text-[#F45050] font-bold'>Our Associates</p>
     </div>
     <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 gap-6 mx-5'>
       <div className='flex justify-center items-center'>

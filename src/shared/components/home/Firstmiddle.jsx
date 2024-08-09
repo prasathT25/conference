@@ -8,7 +8,7 @@ export default function Firstmiddle() {
           <div>
             <p className='text-center text-5xl  my-16 text-red-600 font-semibold'>IMPORTANT DATES</p>
           </div>
-          <div className="relative my-10">
+          <div className="relative mt-10">
             <img src="/assets/seccalendar.jpeg" className="w-full h-[300px] object-cover" alt="Background opacity-[50%]" />
             <div className='absolute inset-0'>
               <div className='grid  lg:grid-cols-2 grid-cols-1 h-full w-full'>
