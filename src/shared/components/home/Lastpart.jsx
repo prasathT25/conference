@@ -35,7 +35,7 @@ export default function Lastpart() {
 
           </div>
           <div>
-            <p className='text-center text-3xl md:text-3xl  my-16 text-[#3C486B] font-semibold'>Note : ICASET-2024 proceedings series will be submitted to the Web of Science Book Citation Index (BkCI) and to SCOPUS for evaluation and indexing (T&C)*.</p>
+            <p className='text-center text-3xl md:text-3xl  my-8 text-[#3C486B] font-semibold'>Note : ICASET-2024 proceedings series will be submitted to the Web of Science Book Citation Index (BkCI) and to SCOPUS for evaluation and indexing (T&C)*.</p>
           </div>
         </div>
       </section>
@@ -43,7 +43,7 @@ export default function Lastpart() {
       <section>
         <div className='max-w-[85rem] w-full mx-auto px-4'>
           <div>
-            <p className='text-center text-3xl md:text-4xl my-16 text-[#F45050] font-bold'>Why Should You Attend?</p>
+            <p className='text-center text-3xl md:text-5xl my-8 text-[#F45050] font-semibold'>Why Should You Attend?</p>
           </div>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-5'>
             <div className='border border-[#3C486B] p-6 rounded-lg flex flex-col items-center'>
@@ -110,32 +110,32 @@ export default function Lastpart() {
 </section>
 <div className='bg-[#3C486B] '>
       <p className='text-center text-3xl md:text-4xl mt-0 text-[#F45050] font-bold pt-3'>BE A VOLUNTEER</p>
-      <p className=' text-1xl md:text-2xl mt-5 text-white  md:mx-[100px] justify-center mb-10 pb-5 mx-4'>Join us in shaping the future of knowledge advancement! We're inviting enthusiastic volunteers to be an integral part of the 2nd International Conference on Advances in Science, Engineering & Technology 2024 in Vietnam & Hanoi on August 23rd & 24th, 2024. organized by Institute For Educational Research and Publication (IFERP). Be part of a global community driving innovation and collaboration.</p>
+      <p className=' text-1xl md:text-2xl mt-5 text-white  md:mx-[100px] justify-center mb-5 pb-5 mx-4'>Join us in shaping the future of knowledge advancement! We're inviting enthusiastic volunteers to be an integral part of the 2nd International Conference on Advances in Science, Engineering & Technology 2024 in Vietnam & Hanoi on August 23rd & 24th, 2024. organized by Institute For Educational Research and Publication (IFERP). Be part of a global community driving innovation and collaboration.</p>
     </div>
 <section>
   <div className='max-w-[85rem] w-full mx-auto px-4'>
     <div>
-      <p className='text-center text-3xl md:text-4xl my-2 text-[#F45050] font-bold'>Our Associates</p>
+      <p className='text-center text-3xl md:text-4xl my-5 text-[#F45050] font-bold'>Our Associates</p>
     </div>
-    <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 gap-6 mx-5'>
-      <div className='flex justify-center items-center'>
-        <img src="/assets/imgg1.png" alt="Associate 1" className="w-full h-[100px] object-cover rounded-lg" />
+    <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 gap-5 mx-5'>
+      <div className='flex justify-center items-center w-full'>
+        <img src="/assets/imgg1.png" alt="Associate 1" className=" lg:h-[80px] h-[120px] w-full object-contain rounded-lg" />
       </div>
       <div className='flex justify-center items-center'>
-        <img src="/assets/imgg2.png" alt="Associate 2" className="w-full h-[100px] object-cover rounded-lg" />
+        <img src="/assets/imgg2.png" alt="Associate 2" className="w-full lg:h-[80px]  h-[120px] object-contain rounded-lg" />
+      </div>
+       <div className='flex justify-center items-center'>
+        <img src="/assets/imgg3.png" alt="Associate 3" className="w-full lg:h-[80px]  h-[120px] object-contain rounded-lg" />
       </div>
       <div className='flex justify-center items-center'>
-        <img src="/assets/imgg3.png" alt="Associate 3" className="w-full h-[100px] object-cover rounded-lg" />
+        <img src="/assets/imgg4.png" alt="Associate 4" className="w-full lg:h-[80px]  h-[120px] object-contain rounded-lg" />
       </div>
       <div className='flex justify-center items-center'>
-        <img src="/assets/imgg4.png" alt="Associate 4" className="w-full h-[100px] object-cover rounded-lg" />
+        <img src="/assets/imgg5.png" alt="Associate 5" className="w-full lg:h-[30px]  h-[120px] object-contain rounded-lg" />
       </div>
-      <div className='flex justify-center items-center'>
-        <img src="/assets/imgg5.png" alt="Associate 5" className="w-full h-[100px] object-cover rounded-lg" />
-      </div>
-      <div className='flex justify-center items-center'>
-        <img src="/assets/imgg6.png" alt="Associate 6" className="w-full h-[100px] object-cover rounded-lg" />
-      </div>
+      <div className='flex justify-center items-center mb-5'>
+        <img src="/assets/imgg6.png" alt="Associate 6" className="w-full lg:h-[80px]  h-[120px] object-contain rounded-lg" />
+      </div> 
     </div>
   </div>
 </section>

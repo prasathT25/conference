@@ -23,7 +23,7 @@ export default function Header() {
             <li><Link to="/about" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">About</Link></li>
             <li><Link to="/registration" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Registration</Link></li>
             <li><Link to="/contact" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Contact Us</Link></li>
-            <li className=' bg-red-500 px-1 py-1'><Link to="/blog" className="text-black-700 font-semibold hover:text-blue-600 text-[20px] text-center text-white  rounded-lg">Pre Conference Webinar</Link></li>
+            <li className=' bg-red-500 px-1 '><Link to="/blog" className="text-black-700 font-semibold hover:text-blue-600 text-[20px] md:text-[18px] text-center text-white  rounded-lg">Pre Conference Webinar</Link></li>
           </ul>
         </div>
         </div>

@@ -48,7 +48,7 @@ export default function Footer() {
               <img src="/assets/twit.png" alt="Twitter Icon" className="w-6 h-6 mr-2" />
               <p className='text-sm md:text-base'>Twitter</p>
             </div>
-            <div className='flex items-center mb-2'>
+            <div className='flex items-center mb-2 ml-4'>
               <img src="/assets/insta.png" alt="Instagram Icon" className="w-6 h-6 mr-2" />
               <p className='text-sm md:text-base'>Instagram</p>
             </div>

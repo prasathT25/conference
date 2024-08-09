@@ -28,20 +28,20 @@ export default function Firstmiddle() {
                   <p className='text-center text-[16px] md:text-[20px] font-bold'>25<sup>th</sup> July 2024</p>
                 </div>
                 {/* Box 2 */}
-                <div className=" bg-[#3C486B] opacity-75 w-full h-[100px] lg:w-[200px]  rounded-2xl">
-                  <p className='text-center font-semibold md:text-[16px] text-[13px]'>Abstract Submission Deadline</p>
-                  <p className='text-center text-[16px] md:text-[20px] font-bold'>2<sup>nd</sup>    August 2024</p>
+                <div className=" bg-[#3C486B] opacity-75 w-full h-[100px] lg:w-[200px]  rounded-2xl flex flex-col justify-center">
+                  <p className='text-center font-semibold md:text-[16px] text-[13px] text-white '>Abstract Submission Deadline</p>
+                  <p className='text-center text-[16px] md:text-[20px] font-bold text-white'>2<sup>nd</sup>    August 2024</p>
                 </div>
               </div>
                <div className='flex flex-col gap-3 w-full mx-1'>
                    {/* Box 3 */}
                 <div className=" bg-[#3C486B]  opacity-75 w-full h-[100px] lg:w-[200px] shadow-lg rounded-2xl flex flex-col justify-center">
-                  <p className='text-center font-semibold md:text-[16px] text-[13px]'>Full Paper Submission Deadline</p>
-                  <p className='text-center text-[16px] md:text-[20px] font-bold'>7<sup>th</sup>    August 2024</p>
+                  <p className='text-center font-semibold md:text-[16px] text-[13px] text-white'>Full Paper Submission Deadline</p>
+                  <p className='text-center text-[16px] md:text-[20px] font-bold text-white'>7<sup>th</sup>    August 2024</p>
                 </div>
                 {/* Box 4 */}
-                <div className=" bg-white opacity-75 w-full h-[100px] lg:w-[200px] shadow-lg rounded-2xl">
-                  <p className='text-center font-semibold md:text-[16px] text-[13px]'>Registration Deadline</p>
+                <div className=" bg-white opacity-75 w-full h-[100px] lg:w-[200px] shadow-lg rounded-2xl flex flex-col justify-center">
+                  <p className='text-center font-semibold md:text-[16px] text-[13px] '>Registration Deadline</p>
                   <p className='text-center text-[16px] md:text-[20px] font-bold'>13<sup>th</sup>    August 2024</p>
                 </div>
                </div>
@@ -68,12 +68,12 @@ export default function Firstmiddle() {
             <p className='text-center text-5xl my-16 text-red-600 font-semibold md:text-4xl sm:text-3xl'>
               OBJECTIVE OF THE 2<sup className='text-[#3C486B]'>nd</sup> ICASET
             </p>
-            <p className='text-2xl text-[#3C486B] text-left mx-auto md:w-[80%] sm:text-xl sm:leading-relaxed'>
+            <p className='text-2xl text-[#3C486B] text-center  md:w-[80%] sm:text-xl sm:leading-relaxed mx-4  '>
               ICASET is driven by a multifaceted objective that goes beyond traditional conference goals. Our aim is to
               facilitate knowledge exchange, promote collaboration, and catalyze transformative breakthroughs in the
               fields of science, engineering, and technology.
             </p>
-            <p className='text-2xl text-[#3C486B] text-left mx-auto md:w-[80%] my-10 sm:text-xl sm:leading-relaxed'>
+            <p className='text-2xl text-[#3C486B] text-center mx-4 md:w-[80%] my-10 sm:text-xl sm:leading-relaxed'>
               By providing a conducive environment for networking, learning, and idea-sharing, ICASET aspires to
               contribute to the global pool of knowledge and inspire innovative approaches to address the complexities
               of our ever-evolving world.
