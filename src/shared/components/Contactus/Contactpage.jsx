@@ -4,7 +4,7 @@ export default function Contactpage() {
   return (
     <div>
       <section>
-                <div className='max-w-full w-full mx-auto px-4'>
+                <div className='max-w-full w-full mx-auto '>
                     <div className='relative w-full'>
                         <img src="/assets/contactimg.png" alt="Description" className="w-full md:h-[200px] h-[100px] object-cover rounded-none" />
                         <div className='absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white'>
@@ -58,12 +58,12 @@ export default function Contactpage() {
             </section>
 
             <section>
-                <div className='max-w-[120rem] w-full mx-auto px-4 mt-20'>
+                <div className='max-w-full w-full mx-auto  mt-20'>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3725.2166105917263!2d105.76919237587165!3d20.983952489314913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1723067885968!5m2!1sen!2sin" width="100%" height="450" ></iframe>       </div>
             </section>
 
             <section>
-                <div className='max-w-[120rem] w-full mx-auto px-4'>
+                <div className='max-w-full w-full mx-auto '>
                     <div className='relative bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('/assets/mapss.jpeg')" }}>
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 p-8 relative'>
                             <div className='flex flex-col items-center text-center  p-4 rounded-lg'>

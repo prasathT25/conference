@@ -62,7 +62,7 @@ export default function Footer() {
         
       </div>
       <div>
-            <p className="text-center text-[10px] md:text-1xl">© 2024 IFERP - All rights reserved.</p>
+            <p className="text-center text-[10px] md:text-[16px] my-3">© 2024 IFERP - All rights reserved.</p>
         </div>
     </section>
   </div>

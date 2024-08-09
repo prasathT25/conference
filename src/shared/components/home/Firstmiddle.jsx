@@ -60,7 +60,7 @@ export default function Firstmiddle() {
       </section>
 
       <section>
-        <div className='max-w-[120rem] w-full mx-auto px-2 '>
+        <div className='max-w-full w-full mx-auto  '>
           <div className='mb-10'>
             <img src="/assets/confimg.jpeg" className="w-full h-[500px] object-cover" alt="Background" />
           </div>

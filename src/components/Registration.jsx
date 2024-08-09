@@ -19,11 +19,8 @@ export default function Registration() {
 
            < ConferenceRegisteration/>
            <Bankdetails/>
-
-            
-               <div  className='max-w-full w-full mx-auto px-4'>
-                <Footer/>
-               </div>
+           <Footer/>
+               
 
 
 

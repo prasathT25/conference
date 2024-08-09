@@ -206,7 +206,7 @@ export default function Bankdetails() {
 
 
             <section>
-                <div className='max-w-full w-full mx-auto px-4 mt-10'>
+                <div className='max-w-full w-full mx-auto  mt-10'>
                     <div className='relative bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('/assets/mapss.jpeg')" }}>
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 p-8 relative'>
                             <div className='flex flex-col items-center text-center  p-4 rounded-lg'>
