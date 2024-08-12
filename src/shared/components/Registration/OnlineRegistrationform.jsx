@@ -23,6 +23,7 @@ export default function OnlineRegistrationform(props) {
 
                                 <option name="Option1" value={formdata['Option1']} onChange={handlechange} >option1</option>
                                 <option name="Option2" value={formdata['Option2']} onChange={handlechange} >option2 </option>
+                                <option name="Option2" value={formdata['Option2']} onChange={handlechange} >option3 </option>
                             </select>
                         </div>
                         <div>
@@ -85,7 +86,7 @@ export default function OnlineRegistrationform(props) {
                                 containerClass='mt-1  block'
 
                                 inputStyle={{
-                                    width: '350px',
+                                    width: '320px',
                                     height: '40px',
                                     padding: '15px',
                                     border: '1px solid #d1d5db',
@@ -111,7 +112,7 @@ export default function OnlineRegistrationform(props) {
                             <label className='block text-sm font-medium text-gray-700'>Participant Category</label>
                             <select name='Category' value={formdata['Category']} onChange={handlechange}  required className='mt-1 block w-[350px] px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#F45050] focus:border-[#F45050]'>
                                 <option name="Choose" value={formdata['Choose']} onChange={handlechange}>option one</option>
-                                <option name="Choose" value={formdata['Choose']} onChange={handlechange}>option one</option>
+                                <option name="Choose" value={formdata['Choose']} onChange={handlechange}>option two</option>
                             </select>
                         </div>
                         <div className='md:col-span-2 flex justify-center'>

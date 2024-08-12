@@ -28,7 +28,7 @@ export default function Sessionchair() {
 
 
             <div className="text-center md:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#F45050]">Dr. SudarshanRao K</h2>
+              <h2 className="text-3xl md:text-3xl font-bold mb-4 text-[#F45050]">Dr. SudarshanRao K</h2>
               <p className="text-lg md:text-xl text-[#3C486B]">
                 Dean (Quality Assurance) and Professor,<br />Department of Mechanical Engineering,<br />Shri Madhwa Vadiraja Institute of<br /> Technology and Management Bantakal<br /> Udupi Karnataka,India.
               </p>

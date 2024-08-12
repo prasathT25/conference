@@ -6,7 +6,7 @@ export default function Importantdates() {
       <section>
         <div className='max-w-full w-full mx-auto ' >
           <div>
-            <p className='text-center text-5xl  my-16 text-red-600 font-semibold'>IMPORTANT DATES</p>
+            <p className='text-center text-3xl md:text-5xl  my-16 text-red-600 font-semibold'>IMPORTANT DATES</p>
           </div>
           <div className="relative mt-10">
             <img src="/assets/seccalendar.jpeg" className="w-full h-[300px] object-cover" alt="Background opacity-[50%]" />

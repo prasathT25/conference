@@ -21,13 +21,13 @@ export default function Updateform(props) {
         <form onSubmit={handlesave}>
           <div className='grid grid-cols-1 xl:grid-cols-2 gap-5 h-full '>
             <div className='flex flex-col justify-center'>
-              <input autoComplete='off' type="text" id="name" name="Name" value={formdata['Name']} placeholder='Name' onChange={handleChange} className='p-2 border border-gray-300 rounded-lg w-[300px] h-[50px] text-sm' required />
+              <input autoComplete='off' type="text" id="name" name="Name" value={formdata['Name']} placeholder='Name' onChange={handleChange}  className='p-2 border border-gray-300 rounded-lg w-[300px] h-[50px] text-sm' required />
             </div>
             <div className='flex flex-col justify-center'>
-              <input autoComplete='off' type="email" id="email" name="Email"  value={formdata['Email']} placeholder='Email'  onChange={handleChange} className='p-2 border border-gray-300 rounded-lg w-[300px] h-[50px] text-sm ' required />
+              <input autoComplete='off' type="email" id="email" name="Email"  value={formdata['Email']} placeholder='Email'  onChange={handleChange}   className='p-2 border border-gray-300 rounded-lg w-[300px] h-[50px] text-sm ' required />
             </div>
             <div className='flex flex-col justify-center'>
-              <input autoComplete='off' type="tel" id="phone" name="Mobile Number"  value={formdata['Mobile Number']} placeholder='Phone' onChange={handleChange}  className='p-2 border border-gray-300 rounded-lg w-[300px] h-[50px] text-sm' required />
+              <input autoComplete='off' type="number" id="phone" name="Mobile Number"  value={formdata['Mobile Number']} placeholder='Phone' onChange={handleChange}   className='p-2 border border-gray-300 rounded-lg w-[300px] h-[50px] text-sm' required />
             </div>
             <div className='flex flex-col justify-center md:mt-0 mt-3 '>
               <button type="submit" disabled={loading} className='px-4 py-2 bg-[#F45050] text-white text-sm rounded-lg font-bold w-[300px] h-[50px]'>{loading ? 'Submiting...' : 'Submit'}</button>
