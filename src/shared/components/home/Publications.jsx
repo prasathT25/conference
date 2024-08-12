@@ -5,7 +5,7 @@ export default function Publications() {
     <div>
        <section>
         <div className='max-w-[100rem] w-full mx-auto px-4'>
-          <div className='text-center mb-10 my-10'>
+          <div className='text-center mb-20 my-15 mt-20'>
             <p className='text-3xl md:text-5xl text-[#F45050] font-semibold'>
               Proceedings & Publications
             </p>

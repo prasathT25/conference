@@ -43,8 +43,8 @@ export default function Updateform(props) {
   
 
 <div className='bg-[#3C486B] '>
-      <p className='text-center text-3xl md:text-4xl mt-0 text-[#F45050] font-bold pt-3'>BE A VOLUNTEER</p>
-      <p className=' text-1xl md:text-2xl mt-5 text-white  md:mx-[100px] justify-center mb-5 pb-5 mx-4'>Join us in shaping the future of knowledge advancement! We&aposre inviting enthusiastic volunteers to be an integral part of the 2nd International Conference on Advances in Science, Engineering & Technology 2024 in Vietnam & Hanoi on August 23rd & 24th, 2024. organized by Institute For Educational Research and Publication (IFERP). Be part of a global community driving innovation and collaboration.</p>
+      <p className='text-center text-3xl md:text-4xl mt-0 text-[#F45050] font-bold pt-10'>BE A VOLUNTEER</p>
+      <p className=' text-1xl md:text-2xl mt-5 text-white  md:mx-[100px] justify-center mb-5 pb-10 mx-4'>Join us in shaping the future of knowledge advancement! We&aposre inviting enthusiastic volunteers to be an integral part of the 2nd International Conference on Advances in Science, Engineering & Technology 2024 in Vietnam & Hanoi on August 23rd & 24th, 2024. organized by Institute For Educational Research and Publication (IFERP). Be part of a global community driving innovation and collaboration.</p>
     </div>
     </section>
 

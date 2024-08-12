@@ -6,7 +6,7 @@ export default function Attendconference() {
       <section>
         <div className='max-w-[85rem] w-full mx-auto px-4'>
           <div>
-            <p className='text-center text-3xl md:text-5xl my-8 text-[#F45050] font-semibold'>Why Should You Attend?</p>
+            <p className='text-center text-3xl md:text-5xl my-8 mt-20 mb-20 text-[#F45050] font-semibold'>Why Should You Attend?</p>
           </div>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-5'>
             <div className='border border-[#3C486B] p-6 rounded-lg flex flex-col items-center'>
