@@ -4,3 +4,8 @@
 .bg-calendar{
   background: url('../public/assets/images/seccalendar.png');
 }
+@media (max-width: 640px) { /* Tailwind's sm breakpoint */
+  .form-control {
+    width: 295px !important; /* or a specific width for mobile view */
+  }
+}

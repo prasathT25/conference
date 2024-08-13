@@ -8,6 +8,8 @@ import ContactUs from '../components/ContactUs';
 import Registration from '../components/Registration';
 import ScrollToTop from './ScrollToTop';
 import AboutUs from '../components/AboutUs';
+import Call from '../components/Call';
+import Rules from '../components/Rules';
 
 
 
@@ -24,6 +26,8 @@ export default function Approuter() {
           <Route path='/contact' element={<ContactUs/>} />
           <Route path='/registration' element={<Registration/>} />
           <Route path='/about' element={<AboutUs/>} />
+          <Route path='/call' element={<Call/>} />
+          <Route path='/rules' element={<Rules />} />
           
           
           

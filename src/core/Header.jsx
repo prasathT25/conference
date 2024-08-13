@@ -18,12 +18,14 @@ export default function Header() {
           </button>
         </div>
         <div className={`hidden lg:flex flex-col lg:flex-row lg:gap-12 ml-[200px] ${isOpen ? 'block' : 'hidden'}`}>
-          <ul className="flex flex-col lg:flex-row lg:gap-12">
+          <ul className="flex flex-col lg:flex-row lg:gap-9">
             <li><Link to="/" className="text-black-700 font-semibold text-[20px] hover:text-blue-600">Home</Link></li>
             <li><Link to="/about" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">About</Link></li>
+            <li><Link to="/call" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Call</Link></li>
+            <li><Link to="/rules" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Rules</Link></li>
             <li><Link to="/registration" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Registration</Link></li>
-            <li><Link to="/contact" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Contact Us</Link></li>
-            <li className=' bg-red-500 px-2 '><Link to="/blog" className="text-black-700 font-semibold hover:text-blue-600 text-[20px] md:text-[18px] text-center text-white  rounded-lg">Pre Conference Webinar</Link></li>
+            <li><Link to="/contact" className="text-black-700 font-semibold hover:text-blue-600 text-[20px] text-nowrap">Contact Us</Link></li>
+            <li className=' bg-red-500 px-2 '><Link to="/blog" className=" text-nowrap text-black-700 font-semibold hover:text-blue-600 text-[20px] md:text-[18px] text-center text-white  rounded-lg">Pre Conference Webinar</Link></li>
           </ul>
         </div>
         </div>
@@ -32,6 +34,8 @@ export default function Header() {
           <ul className="flex flex-col space-y-4 mt-4 px-3">
             <li><Link to="/" className="text-black-700 font-semibold text-[20px] hover:text-blue-600">Home</Link></li>
             <li><Link to="/about" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">About</Link></li>
+            <li><Link to="/call" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Call</Link></li>
+            <li><Link to="/rules" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Rules</Link></li>
             <li><Link to="/registration" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Registration</Link></li>
             <li><Link to="/contact" className="text-black-700 font-semibold hover:text-blue-600 text-[20px]">Contact Us</Link></li>
             <li><Link to="/blog" className="text-black-700 font-semibold hover:text-blue-600 bg-red-500 text-[10px] text-white px-2 py-2 rounded-lg">Pre Conference Webinar</Link></li>

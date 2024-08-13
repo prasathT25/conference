@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <div>
-      <section>
-        <div className='max-w-full w-full mx-auto px-4 bg-yellow-100 py-8'>
+      <section className='bg-yellow-100 '>
+        <div className='lg:max-w-[85rem] md:max-w-[55rem] w-full mx-auto px-4  py-8'>
           <div className='grid grid-cols-1 md:grid-cols-4 gap-8 text-[#3C486B] '>
             
             <div className='flex flex-col'>
@@ -12,7 +12,7 @@ export default function Footer() {
               </p>
             </div>
     
-            <div className='flex flex-col '>
+            <div className='flex flex-col lg:ml-5 '>
               <h3 className='text-lg md:text-2xl font-bold mb-4  text-[#F45050]'>Useful Links</h3>
               <a href="/" className='text-sm md:text-base mb-2'>Home</a>
               <a href="/about" className='text-sm md:text-base mb-2'>About</a>
@@ -58,10 +58,11 @@ export default function Footer() {
   
           </div>
         </div>
-        <div>
+       
+      </section>
+      <div>
           <p className="text-center text-[10px] md:text-[16px] my-3">© 2024 IFERP - All rights reserved.</p>
         </div>
-      </section>
     </div>
   );
 }
