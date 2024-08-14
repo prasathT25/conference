@@ -9,3 +9,11 @@
     width: 295px !important; /* or a specific width for mobile view */
   }
 }
+.c{
+  background: url('../public/assets/worldmap.avif') rgba(13, 14, 13, 0.8);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  
+}

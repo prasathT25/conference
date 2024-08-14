@@ -21,6 +21,7 @@ import Attendconference from '../shared/components/home/Attendconference'
 import Updateform from '../shared/components/home/Updateform'
 import Associates from '../shared/components/home/Associates'
 import Objectives from '../shared/components/home/Objectives'
+import Conferencelocation from '../shared/components/Registration/Conferencelocation'
 
 
 export default function Home() {
@@ -59,6 +60,7 @@ export default function Home() {
       <Attendconference/>
       <Updateform loading={loading} formdata={formdata} handleChange={handleChange} handlesave={handlesave}/>
       <Associates/>
+      <Conferencelocation/>
       <Footer/>
       
     </div>
